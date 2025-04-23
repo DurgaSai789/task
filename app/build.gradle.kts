@@ -66,11 +66,10 @@ dependencies {
     implementation(libs.converter.gson)
 
     //coil
-    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation(libs.coil.compose)
 
-
-    implementation("com.google.accompanist:accompanist-pager:0.33.1-alpha")
-    implementation("com.google.accompanist:accompanist-pager-indicators:0.33.1-alpha")
+    implementation(libs.accompanist.pager)
+    implementation(libs.accompanist.pager.indicators)
     //dagger
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
@@ -81,8 +80,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
 
     //Constraint layout
-    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+    implementation(libs.androidx.constraintlayout.compose)
 
-    implementation("com.google.android.material:material:1.11.0")
+    implementation(libs.material)
 
 }
